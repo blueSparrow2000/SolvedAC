@@ -282,8 +282,42 @@ print("%d\n"%(numberList[-1] - numberList[0]) )
 '''
 
 '''
-# 1874
-'''
+# 17626 Four squares
 
+import sys
+import math
+input = sys.stdin.readline
+
+def getFourSquares():
+    min_sum_count = 4 # decide 3 or 4
+    n = int(input())
+    sqrtN1 = math.sqrt(n)
+    n1 = math.floor(sqrtN1)
+    # print('n1', n1)
+    if sqrtN1.is_integer(): return 1  # only need one -> no need to see deeper
+    # if given number is not a square
+    for k1 in range(n1, n1//2, -1):
+        r1 = n - k1**2
+        sqrtN2 = math.sqrt(r1)
+        n2 = math.floor(sqrtN2)
+        # print('n2', n2)
+        if sqrtN2.is_integer(): return 2  # 2 is the minimal needed if num is not a square
+        for k2 in range(n2, 0, -1):
+            r2 = r1 - k2**2
+            sqrtN3 = math.sqrt(r2)
+            n3 = math.floor(sqrtN3)
+            # print('n3',n3)
+            if sqrtN3.is_integer(): min_sum_count = 3  # only need three num - but not certain. there may be two num case
+            for k3 in range(n3, 0, -1):
+                r3 = r2 - k3**2
+                n4 = math.sqrt(r3)
+                # print('n4',n4)
+                if n4.is_integer(): min_sum_count = min(min_sum_count, 4) # non zero int => need 4 int
+                else: # Failed: try other case
+                    pass
+    return min_sum_count
+print(getFourSquares())
+
+'''
 
 

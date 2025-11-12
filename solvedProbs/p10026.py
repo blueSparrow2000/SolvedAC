@@ -63,7 +63,6 @@ def countMass():
                 queue.append((x, y + 1))
 
         # if debug: printMat(visited)
-
     return connectedMassCount
 
 
