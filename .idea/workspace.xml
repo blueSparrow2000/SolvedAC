@@ -4,22 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99e665f2-e3ab-4585-a9c9-b1304e7c2a35" name="변경" comment="solved">
-      <change afterPath="$PROJECT_DIR$/solvedProbs/14500.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solvedProbs/p11286.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solvedProbs/p14940.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solvedProbs/p18111.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solvedProbs/p6549.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solvedProbs/p7662.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solvedProbs/p9019.py" afterDir="false" />
+    <list default="true" id="99e665f2-e3ab-4585-a9c9-b1304e7c2a35" name="변경" comment="upto 11.12">
+      <change afterPath="$PROJECT_DIR$/p2667.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solvedProbs/p11403.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solvedProbs/p1260.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solvedProbs/p14003.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solvedProbs/p14003_notworking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solvedProbs/p14003_slowDP.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RingWorld_p9208.py" beforeDir="false" afterPath="$PROJECT_DIR$/passedProbs/RingWorld_p9208.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easyOnes.py" beforeDir="false" afterPath="$PROJECT_DIR$/solvedProbs/easyOnes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p11286.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/p16928.py" beforeDir="false" afterPath="$PROJECT_DIR$/solvedProbs/p16928.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p7662.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sketch.py" beforeDir="false" afterPath="$PROJECT_DIR$/sketch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solvedProbs/p10026.py" beforeDir="false" afterPath="$PROJECT_DIR$/solvedProbs/p10026.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p14003.py" beforeDir="false" afterPath="$PROJECT_DIR$/p2178.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,12 +62,17 @@
     "Python.p10814.executor": "Run",
     "Python.p10845.executor": "Run",
     "Python.p11286.executor": "Run",
+    "Python.p11403.executor": "Run",
     "Python.p1181.executor": "Run",
     "Python.p11866.executor": "Run",
+    "Python.p1260.executor": "Run",
+    "Python.p14003.executor": "Run",
     "Python.p14940.executor": "Run",
     "Python.p16928.executor": "Run",
     "Python.p18111.executor": "Run",
     "Python.p1931.executor": "Run",
+    "Python.p2178.executor": "Run",
+    "Python.p2667.executor": "Run",
     "Python.p2675.executor": "Run",
     "Python.p2751.executor": "Run",
     "Python.p6549.executor": "Run",
@@ -86,7 +84,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/kingc/PycharmProjects/SolvedAC"
+    "last_opened_file_path": "C:/Users/kingc/PycharmProjects/EnchanterWeb"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -152,13 +150,22 @@
       <option name="project" value="LOCAL" />
       <updated>1762409870027</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="upto 11.12">
+      <option name="closed" value="true" />
+      <created>1762926069380</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1762926069380</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Readme" />
     <MESSAGE value="solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="solved" />
+    <MESSAGE value="upto 11.12" />
+    <option name="LAST_COMMIT_MESSAGE" value="upto 11.12" />
   </component>
 </project>
